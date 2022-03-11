@@ -140,6 +140,6 @@ In addition to the examples we show, the Nikto also offers a lot of functions su
 
 # Reference
 
-[^intall_nikto]: https://linuxhint.com/install_nikto_ubuntu/
-[^nikto repo]: https://github.com/sullo/nikto/wiki
-[^this website]: https://www.mankier.com/1/nikto
+[^intall_nikto]: https://linuxhint.com/install_nikto_ubuntu/.
+[^nikto repo]: https://github.com/sullo/nikto/wiki.
+[^this website]: https://www.mankier.com/1/nikto.
