@@ -1,6 +1,4 @@
----
-typora-copy-images-to: figure
----
+
 
 # How to use Nikto
 
