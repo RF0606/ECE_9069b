@@ -32,7 +32,7 @@ The result will show as the following figure.
 
 ![574668f75a20b456935aa3d388a6580](figure/574668f75a20b456935aa3d388a6580.png)
 
-More information can be found from the nikto repo in the Github or this website. [^nikto repo][^this website]
+More information can be found from the nikto repo in the Github  [^nikto_repo]or this website.[^this_website]
 
 Let try one of these. 
 
@@ -141,5 +141,5 @@ In addition to the examples we show, the Nikto also offers a lot of functions su
 # Reference
 
 [^intall_nikto]: https://linuxhint.com/install_nikto_ubuntu/.
-[^nikto repo]: https://github.com/sullo/nikto/wiki.
-[^this website]: https://www.mankier.com/1/nikto.
+[^nikto_repo]: https://github.com/sullo/nikto/wiki.
+[^this_website]: https://www.mankier.com/1/nikto.
