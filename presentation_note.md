@@ -1,3 +1,7 @@
+---
+typora-copy-images-to: figure
+---
+
 # How to use Nikto
 
 ## 1. Install
@@ -26,7 +30,7 @@ nikto -h
 
 The result will show as the following figure. 
 
-![574668f75a20b456935aa3d388a6580](C:\Users\10602\AppData\Local\Temp\WeChat Files\574668f75a20b456935aa3d388a6580.png)
+![574668f75a20b456935aa3d388a6580](figure/574668f75a20b456935aa3d388a6580.png)
 
 More information can be found from the nikto repo in the Github or this website. [^nikto repo][^this website]
 
@@ -38,7 +42,7 @@ nikto -list-plugins
 
 It will list all available plugins which are shown in the following figure.
 
-![2423b05191f244b6ce7734747c00bfe](C:\Users\10602\AppData\Local\Temp\WeChat Files\2423b05191f244b6ce7734747c00bfe.png)
+![2423b05191f244b6ce7734747c00bfe](figure/2423b05191f244b6ce7734747c00bfe.png)
 
 
 
@@ -66,9 +70,9 @@ Then the scan will start and the information will be displayed, as the following
 
 The first block shows some information of the website such as IP address, Hostname and the port. the second block shows the SSL information and the third block shows the potential problems of this website. For example, it shows **_the cookie JSESSIONID created without the secure flag and the httponly flag, Xoops portal give detail error messages including SQL suntax and may allow an exploit, and  Web Wiz Forums ver. 7.01 and below is valnerable to Cross Site Scripting(XSS)._**
 
-![42066538b7566c832628506fc0b2a2b](C:\Users\10602\AppData\Local\Temp\WeChat Files\42066538b7566c832628506fc0b2a2b.png)
+![42066538b7566c832628506fc0b2a2b](figure/42066538b7566c832628506fc0b2a2b.png)
 
-![c5b1dfb8bdac4e9105ad6392dcf8bd8](C:\Users\10602\AppData\Local\Temp\WeChat Files\c5b1dfb8bdac4e9105ad6392dcf8bd8.png)
+![c5b1dfb8bdac4e9105ad6392dcf8bd8](figure/c5b1dfb8bdac4e9105ad6392dcf8bd8.png)
 
 
 
@@ -88,7 +92,7 @@ nikto -h https://owl.uwo.ca/portal/site/~8d4444ef-07ac-4254-a254-24b6b55e039a/to
 
 The above example shows we assign the port 443 and we format the output in the uwo1.txt file. 
 
-![6797f51ff11ab018421aeb1f31ece60](C:\Users\10602\AppData\Local\Temp\WeChat Files\6797f51ff11ab018421aeb1f31ece60.png)
+![6797f51ff11ab018421aeb1f31ece60](figure/6797f51ff11ab018421aeb1f31ece60-16469845062371.png)
 
 
 
@@ -104,7 +108,7 @@ nikto -h xxxx.txt
 
 Where xxxx.txt in our example is 1234.txt. 
 
-![0d8243db605d7dc2615f7d968b728a4](C:\Users\10602\AppData\Local\Temp\WeChat Files\0d8243db605d7dc2615f7d968b728a4.png)
+![0d8243db605d7dc2615f7d968b728a4](figure/0d8243db605d7dc2615f7d968b728a4.png)
 
 
 
@@ -120,7 +124,7 @@ nikto -h https://owl.uwo.ca/portal/site/~8d4444ef-07ac-4254-a254-24b6b55e039a/to
 
 This example shows the result of scanning the owl website with "3. Information Disclosure" and "5. Remote File Retrieval - Inside Web Root". And the processing time of this scan is extremely fast which is just 10 seconds. 
 
-![7c47320698542f907e268096df6c30d](C:\Users\10602\AppData\Local\Temp\WeChat Files\7c47320698542f907e268096df6c30d.png)
+![7c47320698542f907e268096df6c30d](figure/7c47320698542f907e268096df6c30d.png)
 
 
 
