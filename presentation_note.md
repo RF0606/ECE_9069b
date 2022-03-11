@@ -100,7 +100,9 @@ The above example shows we assign the port 443 and we format the output in the u
 
 If we want to scan for multiple websites, we can create a txt file and put the URL of these websites line by line:
 
-![91de8113be766eef11c66bc82c09396](C:\Users\10602\AppData\Local\Temp\WeChat Files\91de8113be766eef11c66bc82c09396.png)Then using this command will let it scan these websites from bottom to the top.
+![91de8113be766eef11c66bc82c09396](figure/91de8113be766eef11c66bc82c09396.png)
+
+Then using this command will let it scan these websites from bottom to the top.
 
 ```bash
 nikto -h xxxx.txt
