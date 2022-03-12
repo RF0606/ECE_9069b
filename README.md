@@ -1,3 +1,3 @@
 # ECE_9069b
 
-Just for the ece 9069b CLASS use
+Just for the ECE 9069B CLASS use
