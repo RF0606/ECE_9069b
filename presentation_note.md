@@ -54,7 +54,7 @@ There is a type of security testing called penetration testing where the tester 
 
 ## 2.5 What is the real-world impact and signigicance?
 
-Nikto can scan over 3300 potentially dangerous files ; over 625 server versions; over 230 specific server issues. Nikto provides efficient and convenient inspection at no cost. It is an excellent tool for web-based protection
+Nikto can scan over 3300 potentially dangerous files ; over 625 server versions; over 230 specific server issues. Nikto provides efficient and convenient inspection at no cost. It is an excellent tool for web-based protection[^info]
 
 
 
@@ -200,3 +200,4 @@ In addition to the examples we show, the Nikto also offers a lot of functions su
 [^nikto_repo]: https://github.com/sullo/nikto/wiki.
 [^this_website]: https://www.mankier.com/1/nikto.
 [^intro_of_Nikto]: https://www.hardcoder.io/web-server-scanning-with-nikto-an-introduction/
+[^info]: https://zh.wikipedia.org/wiki/Nikto
