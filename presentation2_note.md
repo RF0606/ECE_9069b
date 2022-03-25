@@ -24,10 +24,16 @@ Since Qualcomm's MSM chips are used in high-end smartphones sold by Google, Sams
 
 Zewen will introduce more detail about this vulnerability. 
 
-
+​        
 
 # Reference
 
 [^intro of qualcomm]: https://en.wikipedia.org/wiki/Qualcomm, https://baike.baidu.com/item/%E9%AB%98%E9%80%9A/3119501, https://product.pconline.com.cn/itbk/company/subItcom/1111/2574925.html, https://wiki.mbalib.com/wiki/%E7%BE%8E%E5%9B%BD%E9%AB%98%E9%80%9A%E5%85%AC%E5%8F%B8, https://www.mg21.com/qcom.html
+
+
+
 [^case introduction]: https://vulmon.com/vulnerabilitydetails?qid=CVE-2020-11292, https://cisomag.eccouncil.org/vulnerability-in-qualcomm-msm-chip/, https://research.checkpoint.com/2021/security-probe-of-qualcomm-msm/, https://www.cpomagazine.com/cyber-security/security-vulnerability-in-qualcomm-chips-affects-nearly-40-percent-of-smartphones-compromises-flagship-android-phones/, https://threatpost.com/qualcomm-chip-bug-android-eavesdropping/165934/, https://www.sohu.com/a/465212446_114760
+
+
+
 [^more intro]: https://www.sohu.com/a/465212446_114760, https://m.freebuf.com/articles/272066.html, http://finance.sina.com.cn/tech/csj/2021-05-09/doc-ikmxzfmm1379410.shtml, https://www.wangan.com/articles/4546,https://www.secrss.com/articles/31011
