@@ -28,7 +28,11 @@ Zewen will introduce more detail about this Vulnerability.
 
 # 2. Principle (Zewen) 
 
+Runbo has briefly introduced what happened. I am going to explain the principle of this vulnerability. according to the security bulletin which is published on the Qualcomm website. This bulletin has claimed this is a classical buffer overflow vulnerability. We have been working with the Buffer Overflow through the whole term. 
 
+Computer programs generally use some memory, which is either used internally by the program, or stores the user's input data. Such memory is generally called a buffer. if computer does not check the received input data, The part of input that exceed the buffer length will overflow to other memory addresses and then overwrite the content inside. We know that the CPU can perform logical operations based on the data and instructions that are loaded to the register. If we can overflow stuff into memory that is outside the buffer, we can send wrong instructions to register and manipulate the system.
+
+We can check the example here, the src function will cause the overflow to happen. I would like to call it as enter point. The enter point of Qualcomm's case is “The qmi_voicei_srvcc_call_config_req” function. this function begins its execution by parsing [a type-length-value (TLV) format] payload. In simple terms, this pack can define the number of times the function calls, and what content to be used for this call. In order to process this TLV pack, a buffer will be allocated on the modem heap. But this TLV pack does not have a limit on the number of calls. Now all the conditions of an overflow vulnerability are here. an enter point, and an input without legal check. With an appropriate malicious code this modem can be manipulated. Then Yihao will explain the consequences and some how to prevent this vulnerability 
 
 
 
